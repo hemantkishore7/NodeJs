@@ -28,4 +28,6 @@ app.get('/',function(req,res){
     res.json(timestamp)
 })
 
-app.listen(5000)
+app.listen(5000,()=>{
+    console.log('Server started on 5000');
+})
